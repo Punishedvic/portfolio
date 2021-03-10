@@ -62,7 +62,7 @@ app.innerHTML = `
 <div class="dev projects">
     <div class="card_dos slide" id="contenido2">
         <h2>Matchings Cards / ToDo / Cat Therapy</h2>
-        <p class="subcard" lang="en"> These web apps were made for the sake of practicing and creating with javascript. It's a language famous for giving life to websites, nonetheless it is much more than that. Here are a few examples of this: a matching cards game, an app that brings you photos of kittens (to relieve stress, maybe?) through an API, a To Do List, always handful, the FrontEnd of an E-commerce and a couple more projects. Check out my gitHub! </p> 
+        <p class="subcard" lang="en"> These web apps were made with Javascript, a language famous for giving life to websites. However, it is more powerful than that. Here are a few examples: a matching cards game, an app that brings you photos of kittens (to relieve stress, maybe?) through an API, a To Do List, the FrontEnd of an E-commerce and more projects. Check out my gitHub! </p> 
         <p class="subcard" lang="es"> Estas aplicaciones web fueron realizadas para practicar y crear con Javascript. Es un lenguaje famoso por darle vida a los sitios web, sin embargo es mucho más que eso. Acá hay unos ejemplos: un juego de memoria, una app que te brinda fotos de gatitos (para aliviar el stress, ¿quizás?) a través de una API, una lista de tareas, siempre útil, el FrontEnd de un comercio digital y un par de proyectos más. Revisá mi gitHub!
         </p> 
         <div class="slider">
@@ -87,7 +87,7 @@ app.innerHTML = `
 </div>
 <div class="ux projects">
     <div class="card_tres slide" id="contenido3">
-        <h2>Futura Box: UX Case Study</h2>
+        <h2>Futura Box: UX Case</h2>
         <p class="subcard" lang="en"> This is an example of an UX study case. I thought about the problem of the client (reaching new customers) and I've worked on a solution that implied the making of a value proposition canvas, user personas, an inventory of elements and the hierarchy of them, made the information architecture of the project and the presentation of the study case. </p> 
         <p class="subcard" lang="es"> Este es un ejemplo de un caso de estudio de UX. Pensé acerca del problema del cliente (alcanzar nuevos clientes) y he trabajo en una solución que implicó hacer una proposición de valor, los user personas, un inventario de elementos y su jerarquía, creé la arquitectura de la información del proyecto y la presentación del caso de estudio</p> 
         <div class="slider">
@@ -141,7 +141,7 @@ document.body.setAttribute('lang', 'en');
 
 // SLIDER CARDS
 let i = 0
-let images_design = ["./img/futurabox.png", "./img/futurabox2.png", "/img/futurabox3.png"];
+let images_design = ["./img/juampa.png", "./img/futurabox.png", "/img/futurabox3.png"];
 let images_development = ["./img/cattherapy_gif.gif", "./img/MemoTest_gif.gif", "./img/todo_gif.gif"];
 let images_ux = ["./img/ai1.png", "./img/ai2.png", "./img/ai3.png", "./img/ai4.png"];
 const time = 10000;

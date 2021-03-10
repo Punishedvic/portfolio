@@ -355,7 +355,6 @@ a {
     justify-content: center;
     width: 12vw;
     height: 4vh;
-    border: 0.5px solid black;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     background-color: #fff5be;
@@ -441,12 +440,31 @@ footer p {
 }
 
 @media only screen and (min-width: 319px) and (max-width: 419px) {
-    .blocks div {
-        width: 70%;
-        height: 150px;
-        margin: 20px;
+    .titulo h1 {
+        margin-left: -10px;
+        font-size: 1.5rem;
     }
-    .blocks div p {
+    .titulo h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0 10px 20px 25px;
+    }
+    #selection {
+        position: relative;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .loguito {
+        height: 350px;
+        width: 350px;
+    }
+    .componente {
+        width: 90%;
+        height: 75px;
+        margin: 7.5px;
+    }
+    .componente p {
         font-size: 15px;
         font-family: 'Lato', sans-serif;
         padding: 10px;
@@ -455,14 +473,295 @@ footer p {
         font-weight: 600;
         z-index: 100;
     }
+    .projects {
+        height: auto;
+        width: 90%;
+    }
+    #contenido {
+        width: 100%;
+    }
+    .subcard {
+        color: black;
+        width: 85%;
+        padding-left: 10%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .card_uno {
+        width: 100%;
+        height: 50%;
+    }
+    .card_uno h2,
+    .card_dos h2,
+    .card_tres h2 {
+        padding-left: 10%;
+        font-size: 1.1rem;
+    }
+    .slider {
+        height: 100%;
+        max-height: 100%;
+    }
+    .spdesign {
+        font-size: 1rem;
+    }
+    .cta {
+        width: auto;
+        font-size: 15px;
+    }
+    footer p {
+        padding: 0;
+        width: 70%;
+        text-align: center;
+    }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 480px) {}
+@media only screen and (min-width: 420px) and (max-width: 480px) {
+    .titulo h1 {
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-left: -10px;
+        font-size: 1.5rem;
+    }
+    .titulo h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0 10px 20px 25px;
+    }
+    #selection {
+        position: relative;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .loguito {
+        height: 350px;
+        width: 350px;
+    }
+    .componente {
+        width: 90%;
+        height: 75px;
+        margin: 7.5px;
+    }
+    .componente p {
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px;
+        margin-left: 10px;
+        color: white;
+        font-weight: 600;
+        z-index: 100;
+    }
+    .projects {
+        height: auto;
+        width: 90%;
+    }
+    #contenido {
+        width: 100%;
+    }
+    .subcard {
+        color: black;
+        width: 85%;
+        padding-left: 10%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .card_uno {
+        width: 100%;
+        height: 50%;
+    }
+    .card_uno h2,
+    .card_dos h2,
+    .card_tres h2 {
+        padding-left: 10%;
+        font-size: 1.1rem;
+    }
+    .slider {
+        height: 100%;
+        max-height: 100%;
+    }
+    .spdesign {
+        font-size: 1rem;
+    }
+    .cta {
+        width: auto;
+        font-size: 15px;
+    }
+    footer p {
+        padding: 0;
+        width: 70%;
+        text-align: center;
+    }
+}
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .titulo h1 {
+        width: 100%;
+        margin-left: -10px;
+        font-size: 1.5rem;
+    }
+    .titulo h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0 10px 20px 25px;
+    }
+    #selection {
+        position: relative;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .loguito {
+        height: 350px;
+        width: 350px;
+    }
+    .componente {
+        width: 90%;
+        height: 75px;
+        margin: 7.5px;
+    }
+    .componente p {
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px;
+        margin-left: 10px;
+        color: white;
+        font-weight: 600;
+        z-index: 100;
+    }
+    .projects {
+        height: auto;
+        width: 90%;
+    }
+    #contenido {
+        width: 100%;
+    }
+    .subcard {
+        color: black;
+        width: 85%;
+        padding-left: 10%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .card_uno {
+        width: 100%;
+        height: 50%;
+    }
+    .card_uno h2,
+    .card_dos h2,
+    .card_tres h2 {
+        padding-left: 10%;
+        font-size: 1.1rem;
+    }
+    .slider {
+        height: 100%;
+        max-height: 100%;
+    }
+    .spdesign {
+        font-size: 1rem;
+    }
+    .cta {
+        width: auto;
+        font-size: 15px;
+    }
+    footer p {
+        padding: 0;
+        width: 70%;
+        text-align: center;
+    }
+}
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {}
 
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .titulo h1 {
+        width: 100%;
+        margin-left: -10px;
+        font-size: 1.5rem;
+    }
+    .titulo h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0 10px 20px 25px;
+    }
+    #selection {
+        position: relative;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .loguito {
+        height: 350px;
+        width: 350px;
+    }
+    .componente {
+        width: 90%;
+        height: 75px;
+        margin: 7.5px;
+    }
+    .componente p {
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px;
+        margin-left: 10px;
+        color: white;
+        font-weight: 600;
+        z-index: 100;
+    }
+    .projects {
+        height: auto;
+        width: 90%;
+    }
+    #contenido {
+        width: 100%;
+    }
+    .subcard {
+        color: black;
+        width: 85%;
+        padding-left: 10%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .card_uno {
+        width: 100%;
+        height: 50%;
+    }
+    .card_uno h2,
+    .card_dos h2,
+    .card_tres h2 {
+        padding-left: 10%;
+        font-size: 1.1rem;
+    }
+    .slider {
+        height: 100%;
+        max-height: 100%;
+    }
+    .spdesign {
+        font-size: 1rem;
+    }
+    .cta {
+        width: auto;
+        font-size: 15px;
+    }
+    footer p {
+        padding: 0;
+        width: 70%;
+        text-align: center;
+    }
+}
 
+
+}
 @media only screen and (min-width: 1280px) and (max-width: 1441px) {}
